@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Bonjour Sandro 👋" android:textSize="24sp" android:textStyle="bold" android:textColor="#2D2D2D" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Essai gratuit : Jour 2 sur 7" android:textSize="14sp" android:textColor="#E91E63" android:layout_marginBottom="20dp"/>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:background="#FFFFFF" android:padding="16dp" android:layout_marginBottom="12dp"><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="📅 Jour du cycle : 12" android:textSize="16sp"/></LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:background="#FFFFFF" android:padding="16dp" android:layout_marginBottom="12dp"><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="🩸 Prochaines règles : Dans 16 jours" android:textSize="16sp"/></LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:background="#FFFFFF" android:padding="16dp" android:layout_marginBottom="12dp"><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="🌸 Fenêtre fertile : Dans 2 jours" android:textSize="16sp"/></LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:background="#FFFFFF" android:padding="16dp"><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="⭐ Ovulation : Dans 5 jours" android:textSize="16sp"/></LinearLayout>
+
+        <Button android:id="@+id/btn_alert" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginTop="30dp" android:text="TESTER UNE ALERTE" android:textColor="#FFFFFF" android:backgroundTint="#7B1FA2" android:textSize="16sp" android:textStyle="bold"/>
+    </LinearLayout>
+</ScrollView>
